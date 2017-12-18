@@ -1,0 +1,7 @@
+./a.out &
+ps -e -o stat,pid,ppid
+
+pipe:
+mkfifo z
+cat < z
+cat > z

@@ -1,0 +1,15 @@
+etc/
+	passwd
+	shadow
+	sudoer
+
+install :apt get
+zip : tar -cf fileName.tar fileName
+unzip : tar -xf filename.tar
+
+install from source code
+	./configure
+	make
+	make install
+	make check
+	

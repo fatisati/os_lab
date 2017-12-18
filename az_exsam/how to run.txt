@@ -1,0 +1,2 @@
+how to run
+./1.sh -x 'address of folder to count executable files'
